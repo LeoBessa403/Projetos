@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; list-style:none; border:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+body {background-image:url(../img/livro-digital.jpg);}
+
+#geral {width:1200px; background-image:url(../img/bg-body.png); background-repeat:repeat; min-height:900px; margin:10px auto; padding:20px; position:relative;}
+#geral h1{text-align:center; margin:0 auto; color:#CCC; text-shadow:3px 3px #069;}
+#geral fieldset {width:950px; border:1px solid #CCC; margin:20px auto; padding:40px;}
+#geral fieldset legend {font-size:32px; color:#0CF; text-shadow:1px 1px #FFF; padding:0 10px;}
+#geral fieldset label {display:block; color:#CCC; margin-top:10px; font-size:24px;}
+#geral fieldset .campo {width:500px; height:30px; border:1px solid #CCC; display:block;}
+#geral fieldset .btn {width:150px; height:50px; margin-top:30px; box-shadow: 3px 3px 8px #0CF;}
+#geral fieldset .btn:hover {color:#000; box-shadow: 3px 3px 8px #000; background-color:#CCC;}
+#geral #msg-ok, #geral #msg-erro {width:935px; height:30px;  margin:0 auto; background-position:left; background-repeat:no-repeat; padding:1px 0 8px 0; font-weight:bold; text-indent:40px; font-size:30px;}
+#geral #msg-ok {background-color:#C5FCCC; color:#060; border:1px solid #060; background-image:url(../img/ok.png)}
+#geral #msg-erro {background-color:#FFC4C4; color:#9B0000; border:1px solid #9B0000; background-image:url(../img/erro.png)}
+#geral #adicionar a{color:#000; float:right; top:800px; right:105px; text-decoration:none; padding:10px; background-color:#0CF; border:1px solid #333; position:absolute;}
+#geral #adicionar a:hover {color:#0CF; background-color:#333;}
