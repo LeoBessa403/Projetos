@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; list-style:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+body{background-color:#dedede;  margin:0 auto;}
+
+#ok, #erro  {padding:8px 10px 10px 35px; font-size:16px; font-weight:bold; background-repeat:no-repeat; background-position:left top; margin-top:5px;}
+#ok {background-color:#D9FFD9; border:1px solid #063; color:#063; background-image:url(../positivo.png); }
+#erro {background-color:#FFAEAE; border:1px solid #900; color:#900;  background-image:url(../negativo.png); }
+
+.carregando {padding:8px 10px 10px 35px; font-size:20px; font-weight:bold; background-color:#D9FFD9; border:1px solid #063; color:#063; margin:0 auto; text-align:center; margin-top:5px; width:96%;}
+
+#principal {width:99%; margin:0 auto; margin-top:-25px; padding:0 2px;}
+
+#topo {width:100%; height:92px; min-height:92px; background-image:url(topo_menu.jpg); margin:0 auto; background-position:right; background-repeat:no-repeat;}
+#topo img.logo {float:left;}
+
+#conteudo {margin-top:-25px;}
+
+#menu {float:right;}
+
+#menu1 {float:right;}
+#menu1 ul li {float:left; margin-left:15px; position:relative;}
+#menu1 ul li a {text-decoration:none; font-size:12px; font-weight:bold; padding:2px 10px; color:#FFF;}
+#menu1 ul li a:hover {text-decoration:underline; background-color:#165616;}
+#menu1 ul li a.deslogar {float:right; margin-top:2px; padding-right:3px;}
+#menu1 ul li a.deslogar img{ float:right; margin:0 0 0 5px;}
+
+#menu1 ul li ul {display:none; position:absolute; top: 19.5px; left:0; width:170px; background-color:#238A24; border:1px solid #000;}
+#menu1 ul li:hover ul {display:block;}
+#menu1 ul li ul li {margin:3px 2px;}
+#menu1 ul li ul li a {font-size:13px;}
+#menu1 ul li ul li a:hover{padding-left:3px;}
+
+#menu2 {margin-top:30px;}
+#menu2 ul li {float:left; margin-left:44px; margin-right:20px;}
+#menu2 ul li.selecionado {position:relative;}
+#menu2 ul li img {display:block; margin:0 auto;}
+#menu2 ul li a {float:left; font-size:12px; font-weight:bold; padding:1px 3px; text-decoration:none; color:#FFF;}
+#menu2 ul li a:hover {text-decoration:underline; color:#238A24;}
+
+#menu2 ul li ul {display:none; position:absolute; top: 53px; left:0; width:170px; background-color:#238A24; border:1px solid #000;}
+#menu2 ul li:hover ul {display:block;}
+#menu2 ul li ul li {margin:3px 2px;}
+#menu2 ul li ul li a {font-size:13px; padding:2px 10px;}
+#menu2 ul li ul li a:hover{text-decoration:underline; background-color:#165616; color:#FFF; padding-left:3px;}
+
+#rodape{width:100%; background-color:#238A24; height:30px; margin-top:10px; position:absolute; bottom:0;}
+#info-rodape {width:98%; margin:0 auto; padding:5px;}
+#operador,#data {color:#FFF; font-weight:bold; font-size:16px;}
+#data {float:right;}
+
+#form_serial fieldset {background-color:#D9FFD9; padding:10px; margin-top:10px; border:1px solid #063;}
+#form_serial legend {padding:0 8px; color:#063; font-variant:small-caps; font-weight:bold; font-size:18px; letter-spacing:2px;}
+#form_serial label {color:#063; float:left; margin:8px 5px 0 0;}
+
+#form_serial input.campo {width:450px; height:26px; border:1px solid #063; float:left; font-size:16px; font-family:Verdana, Geneva, sans-serif; font-weight:bold; color:#063; padding:3px; margin:5px;}
+#form_serial input.btn {height:26px; border:1px solid #063; float:left; font-size:14px; font-weight:bold; color:#063; padding:1px; margin-top:5px;}
+#form_serial input.btn:hover {border:1px solid #030; color:#030; cursor:pointer; background-color:#DBDBDB;}
+
+#conteudo h1 {color:#900; font-size:22px; margin:5px 0;}
+#conteudo h2 {color:#09C; font-size:16px; margin:3px 0;}
+#conteudo h3 {color:#238A24; font-size:14px; margin:2px 0;}
+#conteudo p {font-size:12px;}
+
+#conteudo fieldset {margin:3px 0; padding:7px; border:1px solid #238A24;}
+#conteudo fieldset legend {font-size:16px; letter-spacing:1px; padding:0 3px; font-weight:bold; color:#00F;}
+#conteudo fieldset input {display:block; margin:0 0 1px; font-family:Arial, Helvetica, sans-serif; color:#238A24; font-size:14px;}
+#conteudo fieldset span.campo, #conteudo fieldset span.campo_pesquisa {font-weight:bold;}
+#conteudo fieldset input.campo , #conteudo fieldset input.campo_pesquisa {width:400px; height:28px; border-left:0.5px solid #238A24; border-top:0.5px solid #238A24; border-bottom:2.5px solid #238A24; border-right:2.5px solid #238A24; padding:2px 3px;}
+#conteudo fieldset input.radio, #conteudo fieldset input.checkbox {float:left;}
+#conteudo fieldset span.select {font-weight:bold; margin-right:5px; display:block;}
+#conteudo fieldset select {width:400px; height:28px; border-left:0.5px solid #238A24; border-top:0.5px solid #238A24; border-bottom:2.5px solid #238A24; border-right:2.5px solid #238A24; padding:2px 3px; margin-bottom:5px;}
+#conteudo fieldset select option, #conteudo fieldset textarea{font-size:14px; font-family:Arial, Helvetica, sans-serif; padding:3px;}
+#conteudo fieldset span.radiopergunta ,#conteudo fieldset span.checkboxpergunta, #conteudo fieldset span.textarea {display:block; margin:3px 0; font-weight:bold;}
+#conteudo fieldset span.radiooption , #conteudo fieldset span.checkboxoption{float:left; margin:0 7px 0 2px; font-size:14px;} 
+#conteudo fieldset span.obs {color:#900; margin-left:5px; font-size:11px; font-family:Verdana, Geneva, sans-serif;}
+#conteudo fieldset textarea {display:block;}
+#conteudo fieldset span.textarea {display:block;}
+#conteudo fieldset textarea {width:400px; height:80px;}
+#conteudo fieldset input.btn ,#conteudo fieldset input.btn_pesquisa {padding:3px 5px; font-weight:bold;}
+#conteudo fieldset input.btn:hover ,#conteudo fieldset input.btn_pesquisa:hover {color:#039; cursor:pointer; background-color:#87CEEB}
+
+#conteudo fieldset span.campo_pesquisa {display:inline;}
+#conteudo fieldset input.campo_pesquisa {display:inline;}
+#conteudo fieldset input.btn_pesquisa {display:inline;}
+
+#conteudo table {border:1px solid #238A24; margin: 5px 0;}
+#conteudo table tr td{padding:2px; font-size:14px; font-family:Arial, Helvetica, sans-serif;}
+#conteudo table tr.titulo {background-color:#09C;}
+#conteudo table tr.titulo_info {background-color:#004A6F; font-size:14px; font-weight:bold; color:#FFF;}
+#conteudo table tr td.center {text-align:center;}
+#conteudo table tr.resultados:hover {background-color:#238A24; color:#FFF; cursor:pointer;}
+#conteudo table tr a.link_edit {text-decoration:none; padding:0 3px; color:#000; font-weight:bold;}
+#conteudo table tr a.link_edit:hover {color:#900;}
+
+#conteudo #registros {font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; color:#900; float:left; font-size:14px; padding:1px 3px 0; background-color:#CAF2FF; border:1px solid #238A24; margin-right:5px; height:26px;}
+#conteudo input.btn_deleta {float:left; margin-right:5px; padding:3px 5px; font-weight:bold;}
+#conteudo input.btn_deleta:hover {color:#039; cursor:pointer; background-color:#87CEEB}
+#conteudo #registros a {color:#238A24; font-family:Arial, Helvetica, sans-serif; font-size:13px; text-decoration:none;}
+#conteudo #registros a:hover {color:#000; text-decoration:underline;}
+#conteudo #registros strong {font-weight:bold;}
+#conteudo #paginacao {padding:3px 3px 3px 0; float:left;}
+#conteudo #paginacao a{text-decoration:none; margin:1px 5px; padding:2px 5px; background-color:#09C; color:#000; border:1px solid #238A24;}
+#conteudo #paginacao a:hover{background-color:#009; color:#FFF;}
+#conteudo #paginacao span.ativo{text-decoration:none; margin:1px 5px; padding:2px 5px; background-color:#238A24; color:#fff; border:1px solid #09C; font-weight:bold;}
+
+#conteudo .error{ border:2px solid #900; color:#900; display:block; font-size:14px; font-weight:bold; width:388px; padding:3px 5px; margin-bottom:5px; margin-top:-2px;}

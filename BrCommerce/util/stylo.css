@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; list-style:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+body{background-color:#dedede;  margin:0 auto; padding:0 10px;}
+
+#ok, #erro  {padding:8px 10px 10px 35px; font-size:16px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; background-repeat:no-repeat; background-position:left top;}
+#ok {background-color:#D9FFD9; border:1px solid #063; color:#063; background-image:url(../imagens/positivo.png); }
+#erro {background-color:#FFAEAE; border:1px solid #900; color:#900;  background-image:url(../imagens/negativo.png); }
+
+#login {width:510px; height:361px; margin:100px auto;}
+
+#login form{float:left; margin:105px 20px 50px 178px;}
+#login input{display:block;}
+#login input.campo {width:230px; height:30px; margin-top:21px;margin-left:3px; padding:2px; font-size:18px; font-weight:bold; border:none; color:#006699;}
+#login input.btn {float:left; margin:14px 0 0 50px; font-size:16px; color:#fff; width:120px; height:35px; border:none; font-weight:bold; padding-left:16px;}
+#login input.btn:hover {color:#000; width:118px; height:33px; margin:14px 0 2px 50px; cursor:pointer;}
+
+.carregando {padding:8px 10px 10px 35px; font-size:20px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; background-color:#D9FFD9; border:1px solid #063; color:#063; margin:0 auto; text-align:center; margin-top:1px;}
+
+#form_serial fieldset {background-color:#D9FFD9; padding:10px; margin-top:10px; border:1px solid #063;}
+#form_serial legend {padding:0 8px; color:#063; font-variant:small-caps; font-weight:bold; font-size:18px; letter-spacing:2px;}
+#form_serial label {color:#063; float:left; margin:8px 5px 0 0;}
+
+#form_serial input.campo {width:450px; height:26px; border:1px solid #063; float:left; font-size:16px; font-family:Verdana, Geneva, sans-serif; font-weight:bold; color:#063; padding:3px; margin:5px;}
+#form_serial input.btn {height:26px; border:1px solid #063; float:left; font-size:14px; font-weight:bold; color:#063; padding:1px; margin-top:5px;}
+#form_serial input.btn:hover {border:1px solid #030; color:#030; cursor:pointer; background-color:#DBDBDB;}
