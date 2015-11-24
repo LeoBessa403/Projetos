@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+.titulos_lista_pesquisa
+{
+	font-weight:bold;
+	color:#FFF;
+	background-color:#09F;
+}
+
+.itens_tabela_banco
+{
+   color:#03F;   
+}
+
+.ordenacao_novo_registro
+{
+	font-weight:bold;
+	color:#333;
+	background-color:#6CF;
+}
+
+.alterar_excluir
+{
+   color:#06F;
+   text-align:center;
+}
+
+.alterar_excluir_over
+{
+   background-color:#CCC;
+   text-align:center;
+}
+
+
+.borda_tabela
+{
+	border-collapse:collapse;
+	text-align: left;
+	border-color:#666;
+	border-bottom-color:#666;
+	color: #09F;
+}
+
+a:visited
+{
+	text-decoration:none;
+	color:#039;
+}
+
+a:link
+{
+	text-decoration:none;
+	color:#039;
+}
+
+.titulo_sistema
+{
+	font-size:24px;
+	text-align:center;
+	font-weight:bold;
+	color:#000066;
+}
+
+.menu
+{
+   color:#009;
+   text-align:left;
+}
+
+.menu_over
+{
+   color:#009;
+   text-align:left;
+   background-color:#0F3;
+}
+
+
+.MostraProdutos
+{
+	width:180px;
+	height:220px;
+	padding:10px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:2px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+}
+
+.campo_descricao
+{
+	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	 font-size:12px;
+}
+
+.campo_valor
+{
+	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	 font-size:12px;
+	 color:#C33;
+}
+
+.MostraRecados
+{
+	width:320px;
+	height:100px;
+	padding:10px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:8px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+}
+
+.campo_nome
+{
+	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	 font-size:18px;
+}
+
+.campo_total
+{
+	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	 font-size:18px;
+	 color:#FF3737;
+}
+
+.campo_mensagem
+{
+	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	 font-size:12px;
+	 color:#C33;
+}
+
+.login
+{
+	text-align: center;
+	color: #FFF;
+}
